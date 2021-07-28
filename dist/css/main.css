@@ -46,12 +46,29 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  background: url("/images/desktop-image-hero-2.jpg");
   background-position: center center;
   background-size: cover;
+  background-repeat: no-repeat;
   height: 100%;
   width: 100%;
+  display: none;
   z-index: -1;
+}
+
+.container .top-container .top-container-a .one {
+  background-image: url("/images/desktop-image-hero-1.jpg");
+}
+
+.container .top-container .top-container-a .two {
+  background-image: url("/images/desktop-image-hero-2.jpg");
+}
+
+.container .top-container .top-container-a .three {
+  background-image: url("/images/desktop-image-hero-3.jpg");
+}
+
+.container .top-container .top-container-a .slider-item.active {
+  display: block;
 }
 
 .container .top-container .top-container-b {
