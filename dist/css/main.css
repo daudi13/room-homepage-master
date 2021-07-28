@@ -71,6 +71,39 @@ a {
   display: block;
 }
 
+.container .top-container .top-container-a .nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3.5rem 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .top-container .top-container-a .nav .logo {
+  color: #fff;
+  font-size: 20px;
+  text-transform: lowercase;
+  margin-right: 4.5rem;
+}
+
+.container .top-container .top-container-a .nav nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .top-container .top-container-a .nav nav ul li {
+  list-style: none;
+}
+
+.container .top-container .top-container-a .nav nav ul li a {
+  color: #fff;
+  margin-right: 30px;
+}
+
 .container .top-container .top-container-b {
   width: 40%;
   height: 60vh;
