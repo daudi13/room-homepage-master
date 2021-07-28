@@ -30,7 +30,7 @@ a {
 }
 
 .container .top-container {
-  height: 60%;
+  height: 60vh;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -39,14 +39,36 @@ a {
 
 .container .top-container .top-container-a {
   width: 60%;
+  position: relative;
+}
+
+.container .top-container .top-container-a .slider-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("/images/desktop-image-hero-2.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
 }
 
 .container .top-container .top-container-b {
   width: 40%;
+  height: 60vh;
+  position: relative;
 }
 
 .container .top-container .top-container-b .dsc {
-  padding: 3.5rem 3rem;
+  padding: 0 3.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
 }
 
 .container .top-container .top-container-b .dsc .desc-txt {
@@ -90,6 +112,9 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .container .bottom-container {

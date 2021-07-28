@@ -4,19 +4,37 @@
     margin: auto;
 
     .top-container {
-        height: 60%;
+        height: 60vh;
         width: 100%;
         display: flex;
 
         .top-container-a {
             width: 60%;
+            position: relative;
+
+            .slider-item {
+                position: absolute;
+                top: 0;
+                left: 0;
+                background: url('/images/desktop-image-hero-2.jpg');
+                background-position: center center;
+                background-size: cover;
+                height: 100%;
+                width: 100%;
+                z-index: -1;
+            }
         }
 
         .top-container-b {
             width: 40%;
+            height: 60vh;
+            position: relative;
 
             .dsc{
-                padding: 3.5rem 3rem;
+                padding: 0 3.5rem;
+                display: flex;
+                align-items: center;
+                height: 100%;
 
                 .desc-txt {
                     display: none;
@@ -55,6 +73,9 @@
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
+                position: absolute;
+                bottom: 0;
+                left: 0;
             }
         }
     }
