@@ -13,6 +13,11 @@ body {
     overflow: hidden;
     font-family: 'Spartan', sans-serif;
     font-size: 12px;
+
+    @include breakpoints-down (tablet) {
+        overflow: scroll;
+        height: auto;
+    }
 }
 
 img {
