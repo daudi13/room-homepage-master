@@ -170,5 +170,61 @@ a {
 .container .bottom-container {
   height: 40%;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .bottom-container .left-bottom-container {
+  background-image: url("/images/image-about-dark.jpg");
+  width: 1750px;
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.container .bottom-container .mid-bottom-container {
+  padding: 0;
+  height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .bottom-container .mid-bottom-container .content {
+  padding: 0 3rem;
+}
+
+.container .bottom-container .mid-bottom-container .content h1 {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.container .bottom-container .mid-bottom-container .content p {
+  color: #a1a1a1;
+  line-height: 17px;
+  font-size: 11px;
+}
+
+.container .bottom-container .right-bottom-container {
+  background-image: url("/images/image-about-light.jpg");
+  width: 1700px;
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 /*# sourceMappingURL=main.css.map */
